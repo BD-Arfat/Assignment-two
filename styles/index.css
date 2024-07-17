@@ -1,12 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap");
 
+.rubik-fonts {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
 :root {
   --font-family: "Playwrite CU", cursive;
-  --font-family-all-body: "Rubik", sans-serif;
   --container-width: 1050px;
   --white-color: white;
   --brown-color: #e6533c;
+  --paragraph-gray-color: #ffffff80;
+  --paragraph-size: 16px;
 }
 /* navbar section */
 .navbar {
@@ -21,7 +28,7 @@
 }
 .navbar-title {
   font-size: 40px;
-  font-family: var(--font-family-all-body);
+
   color: var(--brown-color);
 }
 ul {
@@ -34,7 +41,7 @@ ul > li {
 }
 ul > li > a {
   text-decoration: none;
-  font-family: var(--font-family-all-body);
+
   color: var(--white-color);
 }
 .active {
@@ -46,4 +53,88 @@ ul > li > a {
   color: white;
   font-size: 30px;
   display: none;
+}
+/* banner section styles */
+.banner-container {
+  max-width: var(--container-width);
+  margin: 40px auto;
+  color: var(--white-color);
+}
+.banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-items {
+  width: 50%;
+}
+.banner-title {
+  font-size: 78px;
+
+  line-height: 100px;
+}
+.banner-title-font {
+  font-family: var(--font-family);
+}
+.banner-description {
+  color: var(--paragraph-gray-color);
+  margin-top: -40px;
+  font-size: var(--paragraph-size);
+}
+.banner-button-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+.banner-button {
+  background-color: var(--brown-color);
+  padding: 16px 40px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.banner-outline-button {
+  border: 2px solid white;
+  padding: 16px 40px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.banner-image {
+  max-width: 50%;
+}
+.banner-image-cards {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.banner-card-one {
+  position: absolute;
+  background-color: #3030308a;
+  text-align: center;
+  padding: 8px 65px;
+  border-radius: 10px;
+  bottom: 350px;
+  left: 230px;
+}
+.banner-card-two {
+  position: absolute;
+  background-color: #3030308a;
+  text-align: center;
+  padding: 8px 55px;
+  border-radius: 10px;
+  bottom: 30px;
+  right: 270px;
+}
+.banner-card-title {
+  font-size: 30px;
+
+  margin-bottom: -5px;
+}
+.banner-card-description {
+  color: var(--paragraph-gray-color);
+  font-size: 11px;
 }

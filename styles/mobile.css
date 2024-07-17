@@ -1,4 +1,6 @@
 @media screen and (max-width: 576px) {
+  /* navbar-section-styles */
+
   .navbar {
     margin: 20px 10px;
   }
@@ -7,5 +9,54 @@
   }
   ul {
     display: none;
+  }
+  /* banner section styles */
+  .banner-container {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .banner-content {
+    flex-direction: column;
+  }
+  .banner-items {
+    width: 100%;
+  }
+  .banner-title {
+    font-size: 48px;
+    font-family: var(--font-family-all-body);
+    text-align: left;
+  }
+  .banner-button {
+    padding: 18px 50px;
+    text-align: center;
+    font-size: 16px;
+    font-size: 10px;
+  }
+  .banner-outline-button {
+    padding: 18px 50px;
+    text-align: center;
+    font-size: 16px;
+    font-size: 10px;
+  }
+  .banner-image {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  .banner-card-one {
+    text-align: center;
+    padding: 8px 15px;
+    bottom: 450px;
+    left: 190px;
+  }
+  .banner-card-two {
+    text-align: center;
+    padding: 8px 55px;
+    bottom: 230px;
+    right: 190px;
+  }
+  .banner-card-title {
+    font-size: 20px;
+    font-family: var(--font-family-all-body);
+    margin-bottom: -5px;
   }
 }
