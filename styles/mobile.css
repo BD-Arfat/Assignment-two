@@ -1,0 +1,11 @@
+@media screen and (max-width: 576px) {
+  .navbar {
+    margin: 20px 10px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  ul {
+    display: none;
+  }
+}

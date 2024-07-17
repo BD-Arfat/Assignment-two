@@ -4,4 +4,46 @@
 :root {
   --font-family: "Playwrite CU", cursive;
   --font-family-all-body: "Rubik", sans-serif;
+  --container-width: 1050px;
+  --white-color: white;
+  --brown-color: #e6533c;
+}
+/* navbar section */
+.navbar {
+  max-width: var(--container-width);
+  margin: 10px auto;
+  color: white;
+}
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-title {
+  font-size: 40px;
+  font-family: var(--font-family-all-body);
+  color: var(--brown-color);
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+}
+ul > li {
+  list-style: none;
+}
+ul > li > a {
+  text-decoration: none;
+  font-family: var(--font-family-all-body);
+  color: var(--white-color);
+}
+.active {
+  background-color: var(--brown-color);
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+.menu-icon {
+  color: white;
+  font-size: 30px;
+  display: none;
 }
