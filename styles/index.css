@@ -171,3 +171,35 @@ ul > li > a {
 .habits-card-item p {
   color: var(--paragraph-gray-color);
 }
+/* mile-easily section styles */
+.mile-easily-container {
+  max-width: var(--container-width);
+  margin: 70px auto;
+  color: var(--white-color);
+}
+.mile-easily-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222222;
+  padding: 30px;
+  border-radius: 14px;
+}
+.mile-easily-items {
+  max-width: 45%;
+}
+.mile-easily-items h1 {
+  font-size: 48px;
+  margin-bottom: -5px;
+}
+.mile-easily-items p {
+  color: var(--paragraph-gray-color);
+}
+.mile-easily-items button {
+  background-color: var(--brown-color);
+  padding: 16px 50px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--white-color);
+}
