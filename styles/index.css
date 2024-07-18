@@ -14,6 +14,7 @@
   --brown-color: #e6533c;
   --paragraph-gray-color: #ffffff80;
   --paragraph-size: 16px;
+  --title-fonts-size: 40px;
 }
 /* navbar section */
 .navbar {
@@ -137,4 +138,36 @@ ul > li > a {
 .banner-card-description {
   color: var(--paragraph-gray-color);
   font-size: 11px;
+}
+/* habits section styles */
+.habits-container {
+  max-width: var(--container-width);
+  margin: 140px auto;
+  color: var(--white-color);
+}
+.habits-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: var(--title-fonts-size);
+}
+.habits-description {
+  text-align: center;
+  color: var(--paragraph-gray-color);
+}
+.habits-content {
+  margin-top: 100px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.habits-card-item img {
+  border-radius: 50%;
+}
+.habits-card-item h4 {
+  font-size: 18px;
+  margin-bottom: -5px;
+}
+.habits-card-item p {
+  color: var(--paragraph-gray-color);
 }
