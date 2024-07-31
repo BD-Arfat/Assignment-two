@@ -95,4 +95,25 @@
     width: 100%;
     margin-bottom: 20px;
   }
+  /* bm-calculator-styles */
+  .bm-calculator-container {
+    max-width: 100%;
+    margin: 20px;
+  }
+  .bm-calculator-headers {
+    text-align: left;
+    margin-top: 130px;
+    font-size: 35px;
+  }
+  .table-and-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .calculator-container-section {
+    padding: 10px;
+  }
+  .calculator-form {
+    width: 100%;
+    margin-top: 20px;
+  }
 }

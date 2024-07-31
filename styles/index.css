@@ -94,6 +94,8 @@ ul > li > a {
   border-radius: 30px;
   font-size: 18px;
   font-weight: 600;
+  border: none;
+  color: white;
 }
 .banner-outline-button {
   border: 2px solid white;
@@ -198,8 +200,79 @@ ul > li > a {
 .mile-easily-items button {
   background-color: var(--brown-color);
   padding: 16px 50px;
+  border: none;
   border-radius: 30px;
   font-size: 14px;
   font-weight: 600;
   color: var(--white-color);
+}
+/* bm-calculator-styles */
+.bm-calculator-container {
+  max-width: 700px;
+  margin: 88px auto;
+  color: white;
+  text-align: center;
+}
+.bm-calculator-headers {
+  text-align: left;
+  font-size: 45px;
+}
+.bm-calculator-para {
+  text-align: left;
+}
+.table-and-form {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 80px; */
+}
+.calculator-container-section {
+  background-color: #222222;
+  color: white;
+  padding: 60px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid var(--paragraph-gray-color);
+  text-align: left;
+  padding: 8px;
+}
+
+.calculator-form {
+  width: 50%;
+}
+.calculator-header {
+  font-size: 30px;
+}
+.bm-calculator-para {
+  color: #ffffff80;
+}
+form input,
+.input {
+  background-color: #ffffff1a;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+.input-group-one {
+  display: flex;
+  gap: 10px;
+}
+.input {
+  width: 100%;
+}
+select {
+  outline: 0;
+  background: #2ecc71;
+  color: #fff;
 }
