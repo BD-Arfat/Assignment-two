@@ -276,3 +276,46 @@ select {
   background: #2ecc71;
   color: #fff;
 }
+/* meet-our-team styles */
+
+.meet-our-team-headers {
+  margin-top: 88px;
+  text-align: center;
+  font-size: 45px;
+  color: white;
+}
+.meet-our-team-para {
+  text-align: center;
+  color: var(--paragraph-gray-color);
+}
+.meet-our-team-container {
+  max-width: var(--container-width);
+  margin: 88px auto;
+  color: white;
+  background: #ffffff1a;
+  /* height: 400px; */
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+.image-group img {
+  width: 340px;
+  height: 282px;
+  border-radius: 10px;
+  opacity: 0.7;
+  position: relative;
+  margin-bottom: -100px;
+}
+.image-group-headers {
+  position: relative;
+  /* bottom: 1px; */
+  left: 30px;
+}
+.image-group-para {
+  color: var(--paragraph-gray-color);
+  position: relative;
+  /* bottom: 10px; */
+  left: 30px;
+}
