@@ -135,4 +135,21 @@
     opacity: 0.7;
     position: relative;
   }
+  /* footer section styles */
+  .footer-content {
+    max-width: 100%;
+    flex-direction: column;
+  }
+  .footer-content-group-one {
+    width: 100%;
+  }
+  .footer-list h3 {
+    font-size: 25px;
+    margin-left: -88px;
+  }
+  .footer-list-ul li {
+    margin-top: 20px;
+    margin-left: -128px;
+    color: #ffffff80;
+  }
 }

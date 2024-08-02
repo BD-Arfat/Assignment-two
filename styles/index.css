@@ -320,3 +320,35 @@ select {
   bottom: 30px;
   left: 30px;
 }
+/* footer section styles */
+.footer-container {
+  background: #ffffff1a;
+}
+.footer-content {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.footer-content-group-one {
+  width: 30%;
+}
+.footer-content-header {
+  color: #e6533c;
+  font-style: italic;
+  font-size: 55px;
+}
+.footer-list h3 {
+  font-size: 25px;
+}
+.footer-list-ul {
+  display: block;
+}
+.footer-list-ul li {
+  margin-top: 20px;
+  margin-left: -38px;
+  color: #ffffff80;
+}
