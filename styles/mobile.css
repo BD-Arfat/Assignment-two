@@ -27,16 +27,14 @@
     text-align: left;
   }
   .banner-button {
-    padding: 18px 50px;
+    padding: 18px 40px;
     text-align: center;
-    font-size: 16px;
-    font-size: 10px;
+    font-size: 12px;
   }
   .banner-outline-button {
-    padding: 18px 50px;
+    padding: 18px 40px;
     text-align: center;
-    font-size: 16px;
-    font-size: 10px;
+    font-size: 12px;
   }
   .banner-image {
     max-width: 100%;
@@ -50,9 +48,9 @@
   }
   .banner-card-two {
     text-align: center;
-    padding: 8px 55px;
+    padding: 8px 30px;
     bottom: 230px;
-    right: 190px;
+    right: 180px;
   }
   .banner-card-title {
     font-size: 20px;

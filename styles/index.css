@@ -124,10 +124,13 @@ ul > li > a {
   left: 230px;
 }
 .banner-card-two {
+  display: flex;
+  align-items: center;
+  gap: 20px;
   position: absolute;
   background-color: #3030308a;
   text-align: center;
-  padding: 8px 55px;
+  padding: 8px 40px;
   border-radius: 10px;
   bottom: 30px;
   right: 270px;
