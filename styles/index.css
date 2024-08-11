@@ -264,7 +264,7 @@ form input,
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 8px;
-  color: white;
+  /* color: white; */
   font-weight: bold;
 }
 .input-group-one {
@@ -275,9 +275,12 @@ form input,
   width: 100%;
 }
 select {
-  outline: 0;
-  background: #2ecc71;
-  color: #fff;
+  color: gray;
+}
+select > option {
+  background-color: gray;
+  color: white;
+  border: none;
 }
 /* meet-our-team styles */
 
