@@ -357,6 +357,19 @@ select > option {
   margin-left: -38px;
   color: #ffffff80;
 }
+.copyright {
+  max-width: var(--container-width);
+  margin: 0px auto;
+  padding-bottom: 10px;
+}
+.copyright hr {
+  border: 1px solid #ffffff80;
+}
+.copyright p {
+  text-align: center;
+  color: #ffffff80;
+  font-size: 20px;
+}
 
 /* pricing section styles */
 .price-title {

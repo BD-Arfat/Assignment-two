@@ -137,18 +137,24 @@
   .footer-content {
     max-width: 100%;
     flex-direction: column;
+    padding: 10px;
   }
   .footer-content-group-one {
     width: 100%;
   }
+  .footer-list {
+    width: 100%;
+  }
   .footer-list h3 {
     font-size: 25px;
-    margin-left: -88px;
   }
   .footer-list-ul li {
     margin-top: 20px;
-    margin-left: -128px;
     color: #ffffff80;
+  }
+  .copyright p {
+    text-align: left;
+    padding: 10px;
   }
   /* pricing section styles */
   .pricing-plan {
